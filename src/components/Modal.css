@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.modal {
+    background-color: rgba(0, 0, 0, .85);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-open {
+    display: flex;
+}
+.modal-dialog {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
